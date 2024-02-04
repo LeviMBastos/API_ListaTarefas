@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace API_ListaTarefas.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class TarefasController : ControllerBase
 {
     private TarefaContext _context;
